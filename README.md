@@ -11,7 +11,6 @@ This library is an alternative to Arduino's functions for working with the ADC. 
 Resources
 =========
  - [Examples][examples]
- - [API reference][doxygen classes]
  - [Latest release][latest release]
 
 

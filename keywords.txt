@@ -1,0 +1,45 @@
+########################################
+# Syntax Coloring Map For ADC_atmega328
+########################################
+
+########################################
+# Datatypes (KEYWORD1)
+########################################
+
+# Enumerators
+Reference						KEYWORD1
+AutoTriggerSource				KEYWORD1
+
+
+########################################
+# Methods and Functions (KEYWORD2)
+########################################
+
+initialize						KEYWORD2
+setReference					KEYWORD2
+getPrescaler					KEYWORD2
+setPrescaler					KEYWORD2
+getFrequency					KEYWORD2
+setAutoTriggerSource			KEYWORD2
+read							KEYWORD2
+
+
+########################################
+# Constants (LITERAL1)
+########################################
+
+# enum Reference
+AREF							LITERAL1
+VCC								LITERAL1
+INTERNAL1V1						LITERAL1
+
+# enum AutoTriggerSource
+FreeRunningMode					LITERAL1
+AnalogComparator				LITERAL1
+ExternalInterruptRequest0		LITERAL1
+TimerCounter0CompareMatchA		LITERAL1
+TimerCounter0Overflow			LITERAL1
+TimerCounter1CompareMatchB		LITERAL1
+TimerCounter1Overflow			LITERAL1
+TimerCounter1CaptureEvent		LITERAL1
+Disable							LITERAL1
